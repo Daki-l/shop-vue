@@ -16,7 +16,7 @@ import 'quill/dist/quill.bubble.css' // for bubble theme
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 // axios配置
-axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL = 'http://localhost:8888/api/private/v1/'
 // 在request拦截器中显示进度条和加token
 axios.interceptors.request.use(config => {
   NProgress.start()
