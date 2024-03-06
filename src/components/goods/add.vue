@@ -171,7 +171,7 @@ export default {
       // 动态参数列表
       manyTableData: [],
       onlyTableData: [],
-      uploadURL: 'http://127.0.0.1:8888/api/private/v1/upload',
+      uploadURL: 'http://localhost:8888/api/private/v1/upload',
       headersObj: { Authorization: window.sessionStorage.getItem('token') },
       previewPath: '',
       previewVisible: false
